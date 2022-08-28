@@ -34,3 +34,12 @@
     transform: translateY(0);
   }
 }
+
+::-webkit-scrollbar{
+  background-color: #2c363f;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #f2f5ea;
+}

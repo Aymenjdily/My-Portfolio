@@ -5,6 +5,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import { profile } from '../../Assets'
 import { IoIosArrowDown } from "react-icons/io"
 import ButtonCercle from '../ButtonCercle/ButtonCercle'
+import { Link } from 'react-scroll'
 
 const Intro = () => (
     <section className={`flex md:flex-row flex-col ${styles.paddingY}`} id='home'>
@@ -17,20 +18,32 @@ const Intro = () => (
                         frontend developer
                     </h1>
                     <div className='ss:flex hidden md:ml-20 ml-0 md:mb-0 mb-8'>
-                        <ButtonCercle bg="bg-black" FirstTitle={<IoIosArrowDown/>} textColor="text-primary" size="text-[80px]"/>
+                        <Link to='service'>
+                            <ButtonCercle bg="bg-black" FirstTitle={<IoIosArrowDown/>} textColor="text-primary" size="text-[80px]"/>
+                        </Link>
                     </div>
                 </div>
                 <p className='font-poppins text-black text-[20px] '>
                     Motivated web developer with experience creating custom websites <br/> and platforms through react JS and <br/> its ecosystem,strong and creative.
                 </p>
-                <Button style={'mt-10'} title="let's talk"/>
+                <Link to='contact'>
+                    <Button style={'mt-10'} title="let's talk"/>
+                </Link>
                 <div className='flex flex-col mt-20'>
                     <h3 className='font-poppins font-bold text-[22px]'>Follow me</h3>
                     <div className='flex flex-wrap flex-row mt-3 w-full justify-between'>
-                        <FaGithub className='text-[35px] mr-7 cursor-pointer'/>
-                        <FaInstagram className='text-[35px] mr-7 cursor-pointer'/>
-                        <FaLinkedin className='text-[35px] mr-7 cursor-pointer'/>
-                        <FaWhatsapp className='text-[35px] mr-7 cursor-pointer'/>
+                        <a href="https://github.com/Aymenjdily">
+                            <FaGithub className='text-[35px] mr-7 cursor-pointer'/>
+                        </a>
+                        <a href="https://www.instagram.com/aymen_jdily/">
+                            <FaInstagram className='text-[35px] mr-7 cursor-pointer'/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aymenjdily/">
+                            <FaLinkedin className='text-[35px] mr-7 cursor-pointer'/>
+                        </a>
+                        <a href="https://wa.me/+380958259084">
+                            <FaWhatsapp className='text-[35px] mr-7 cursor-pointer'/>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -75,7 +75,9 @@ const Navbar = () => {
                             key={NavBtn.id}
                             className='mt-5 font-poppins capitalize justify-center items-center border-2 border-black font-bold p-1 cursor-pointer'
                         >
-                            {NavBtn.title}
+                            <a href={`#${NavBtn.id}`}>
+                                {NavBtn.title}
+                            </a>
                         </button>
                     ))
                 }

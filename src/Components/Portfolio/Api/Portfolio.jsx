@@ -1,0 +1,47 @@
+export const Projects = [
+    {
+        id:"1",
+        img:"Assets/images/ecommerce.png",
+        title:"Ecommerce website with Payment",
+        date:"11/05/2022",
+        type:"personal",
+        description:"#Sanity #NextJs #Stripe #Bootstrap #Sass",
+        link:"https://github.com/Aymenjdily/Ecommerce-website-with-Payment-",
+    },
+    {
+        id:"2",
+        img:"Assets/images/dashboard.png",
+        title:"dashboard",
+        date:"07/06/2022",
+        type:"personal",
+        description:"#Sanity #React #Tailwind #Syncfusion #Material-UI #Scss",
+        link:"https://github.com/Aymenjdily/Dashboard",
+    },
+    {
+        id:"3",
+        img:"Assets/images/nowedge.png",
+        title:"landing page",
+        date:"25/08/2022",
+        type:"company",
+        description:"#Tailwind #React #Sanity",
+        link:"",
+    },
+    {
+        id:"4",
+        img:"Assets/images/modern.PNG",
+        title:"landing page modern-bank",
+        date:"06/08/2022",
+        type:"personal",
+        description:"#Tailwind #React #RestApi",
+        link:"https://github.com/Aymenjdily/Modern-Bank-Landing-Page-",
+    },
+    {
+        id:"5",
+        img:"Assets/images/LandingPage.png",
+        title:"pro landing page",
+        date:"21/04/2022",
+        type:"personal",
+        description:"#Bootstrap #React #RestApi",
+        link:"https://github.com/Aymenjdily/LandingPage2",
+    }
+]

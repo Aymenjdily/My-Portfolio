@@ -3,6 +3,7 @@ import styles,{ layout } from '../../Styles/style'
 import ButtonCercle from '../ButtonCercle/ButtonCercle'
 import ServiceCard from './components/ServiceCard'
 import { services } from './Api/Service'
+import { Link } from 'react-scroll'
 
 const Service = () => {
   return (
@@ -18,7 +19,9 @@ const Service = () => {
                 solve your problems.
             </p>
             <div className="ss:flex hidden">
-                <ButtonCercle bg={"bg-primary"} margin="mt-20" FirstTitle="let's" SecondTitle={"talk"} size="text-[25px]" textColor={"text-black"} />
+                <Link to='contact'>
+                    <ButtonCercle bg={"bg-primary"} margin="mt-5" FirstTitle="let's" SecondTitle={"talk"} size="text-[20px]" textColor={"text-black"} />
+                </Link>
             </div>
         </div>
         <div className={`flex flex-1 flex-col justify-center items-center`}>
@@ -34,7 +37,7 @@ const Service = () => {
             }
         </div>
         <div className="ss:hidden flex justify-center items-center">
-                <ButtonCercle bg={"bg-primary"} margin="mt-10" FirstTitle="let's" SecondTitle={"talk"} size="text-[25px]" textColor={"text-black"} />
+                <ButtonCercle bg={"bg-primary"} margin="my-10" FirstTitle="let's" SecondTitle={"talk"} size="text-[25px]" textColor={"text-black"} />
             </div>
     </section>
   )

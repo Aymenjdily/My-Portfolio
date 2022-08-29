@@ -48,7 +48,7 @@ const ContactForm = ({ remove }) => {
                     <textarea type="text" name="message" id="message" className='ss:w-[400px] w-full h-[150px] bg-primary border-2 border-black p-2 font-poppins' placeholder='Your email...'/>
                 </div>
 
-                <Button style={"mt-5"} title="send" Value="Send"/>
+                <Button margin={"mt-5"} title="send" Value="Send"/>
             </form>
         </fieldset>
     )

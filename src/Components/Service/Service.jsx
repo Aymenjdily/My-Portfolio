@@ -1,5 +1,5 @@
 import React from 'react'
-import styles,{ layout } from '../../Styles/style'
+import { layout } from '../../Styles/style'
 import ButtonCercle from '../ButtonCercle/ButtonCercle'
 import ServiceCard from './components/ServiceCard'
 import { services } from './Api/Service'

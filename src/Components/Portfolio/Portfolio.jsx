@@ -2,7 +2,7 @@ import React from 'react'
 // import sanityClient from "../../Auth/client"
 import styles,{layout} from '../../Styles/style'
 import { Projects } from './Api/Portfolio'
-import { FaGithub, FaLink } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 
 const Portfolio = () => {
 

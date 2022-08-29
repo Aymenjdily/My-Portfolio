@@ -9,7 +9,7 @@ const Footer = () => {
             {
                 NavLinks.map((NavLink) => (
                     <li
-                        className='list-none flex flex-col flex-wrap capitalize'
+                        className='list-none flex flex-col flex-wrap capitalize text-black'
                         key={NavLink.id}
                     >
                         <a href={`#${NavLink.id}`}>
@@ -21,16 +21,16 @@ const Footer = () => {
         </ul>
         <div className='flex-1 flex justify-end items-end flex-wrap gap-2 ss:mt-0 mt-8'>
             <a href="https://github.com/Aymenjdily">
-                <FaGithub className='text-[25px] mr-7 cursor-pointer'/>
+                <FaGithub className='text-[25px] mr-7 cursor-pointer text-black'/>
             </a>
             <a href="https://www.instagram.com/aymen_jdily/">
-                <FaInstagram className='text-[25px] mr-7 cursor-pointer'/>
+                <FaInstagram className='text-[25px] mr-7 cursor-pointer text-black'/>
             </a>
             <a href="https://www.linkedin.com/in/aymenjdily/">
-                <FaLinkedin className='text-[25px] mr-7 cursor-pointer'/>
+                <FaLinkedin className='text-[25px] mr-7 cursor-pointer text-black'/>
             </a>
             <a href="https://wa.me/+380958259084">
-                <FaWhatsapp className='text-[25px] ss:mr-7 mr-0 cursor-pointer'/>
+                <FaWhatsapp className='text-[25px] ss:mr-7 mr-0 cursor-pointer text-black'/>
             </a>
         </div>
     </section>

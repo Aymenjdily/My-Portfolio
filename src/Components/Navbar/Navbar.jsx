@@ -34,9 +34,11 @@ const Navbar = () => {
                     <button
                         type='button'
                         key={NavBtn.id}
-                        className='font-poppins text-[16px] sm:flex hidden justify-center items-center border-2 border-black p-1 font-bold w-[130px] cursor-pointer'
+                        className='font-poppins text-[16px] sm:flex hidden justify-center items-center border-2 border-black p-1 font-bold w-[130px] cursor-pointer text-black'
                     >
-                        {NavBtn.title}
+                        <a href={`#${NavBtn.id}`}>
+                            {NavBtn.title}
+                        </a>
                     </button>
                 ))
             }
@@ -73,7 +75,7 @@ const Navbar = () => {
                         <button
                             type='button'
                             key={NavBtn.id}
-                            className='mt-5 font-poppins capitalize justify-center items-center border-2 border-black font-bold p-1 cursor-pointer'
+                            className='mt-5 font-poppins capitalize justify-center items-center border-2 border-black font-bold p-1 cursor-pointer text-black'
                         >
                             <a href={`#${NavBtn.id}`}>
                                 {NavBtn.title}

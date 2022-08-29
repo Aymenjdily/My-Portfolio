@@ -38,7 +38,7 @@ const Portfolio = () => {
 
                             <div className={`${layout.sectionImg}`}>
                                 <div className='p-5'>
-                                    <h2 className='font-poppins capitalize font-semibold text-[20px]'>{project.type}</h2>
+                                    <h2 className='font-poppins capitalize font-semibold text-[20px] text-black'>{project.type}</h2>
                                     <h1 className='my-2 font-poppins font-bold capitalize text-[35px] text-black'>{project.title}</h1>
                                     <p className='font-normal font-poppins text-black'>- {project.date}</p>
                                     <p className='font-normal font-poppins text-black my-2'>{project.description}</p>

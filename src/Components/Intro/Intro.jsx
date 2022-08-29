@@ -29,19 +29,19 @@ const Intro = () => (
                     <Button margin={"mt-10"} title="let's talk"/>
                 </Link>
                 <div className='flex flex-col mt-20'>
-                    <h3 className='font-poppins font-bold text-[22px]'>Follow me</h3>
+                    <h3 className='font-poppins font-bold text-[22px] text-black'>Follow me</h3>
                     <div className='flex flex-wrap flex-row mt-3 w-full justify-between'>
                         <a href="https://github.com/Aymenjdily">
-                            <FaGithub className='text-[35px] mr-7 cursor-pointer'/>
+                            <FaGithub className='text-[35px] mr-7 cursor-pointer text-black'/>
                         </a>
                         <a href="https://www.instagram.com/aymen_jdily/">
-                            <FaInstagram className='text-[35px] mr-7 cursor-pointer'/>
+                            <FaInstagram className='text-[35px] mr-7 cursor-pointer text-black'/>
                         </a>
                         <a href="https://www.linkedin.com/in/aymenjdily/">
-                            <FaLinkedin className='text-[35px] mr-7 cursor-pointer'/>
+                            <FaLinkedin className='text-[35px] mr-7 cursor-pointer text-black'/>
                         </a>
                         <a href="https://wa.me/+380958259084">
-                            <FaWhatsapp className='text-[35px] mr-7 cursor-pointer'/>
+                            <FaWhatsapp className='text-[35px] mr-7 cursor-pointer text-black'/>
                         </a>
                     </div>
                 </div>

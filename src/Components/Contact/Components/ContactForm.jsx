@@ -25,7 +25,7 @@ const ContactForm = ({ remove }) => {
                     <h1 className='font-poppins font-bold text-[30px] capitalize'>message me</h1>
                     <button
                     onClick={remove}>
-                        <img src={close} className="h-[28px] w-[28px] object-contain"/>
+                        <img src={close} alt="close" className="h-[28px] w-[28px] object-contain"/>
                     </button>
                 </div>
                 <div className='flex flex-col gap-3 w-full'>
@@ -48,7 +48,7 @@ const ContactForm = ({ remove }) => {
                     <textarea type="text" name="message" id="message" className='ss:w-[400px] w-full h-[150px] bg-primary border-2 border-black p-2 font-poppins' placeholder='Your email...'/>
                 </div>
 
-                <Button style="mt-5" title="send" Value="Send"/>
+                <Button style={"mt-5"} title="send" Value="Send"/>
             </form>
         </fieldset>
     )

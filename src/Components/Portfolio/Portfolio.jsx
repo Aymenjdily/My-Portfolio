@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 // import sanityClient from "../../Auth/client"
 import styles,{layout} from '../../Styles/style'
 import { Projects } from './Api/Portfolio'

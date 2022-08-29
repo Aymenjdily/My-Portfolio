@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLinks } from '../Navbar/Api/Navbar'
-import styles from '../../Styles/style'
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
 const Footer = () => {

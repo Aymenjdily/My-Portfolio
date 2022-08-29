@@ -2,7 +2,6 @@ import React from 'react'
 import styles,{ layout } from '../../Styles/style'
 import Button from '../Button/Button'
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
-import { profile } from '../../Assets'
 import { IoIosArrowDown } from "react-icons/io"
 import ButtonCercle from '../ButtonCercle/ButtonCercle'
 import { Link } from 'react-scroll'
@@ -27,7 +26,7 @@ const Intro = () => (
                     Motivated web developer with experience creating custom websites <br/> and platforms through react JS and <br/> its ecosystem,strong and creative.
                 </p>
                 <Link to='contact'>
-                    <Button style={'mt-10'} title="let's talk"/>
+                    <Button margin={"mt-10"} title="let's talk"/>
                 </Link>
                 <div className='flex flex-col mt-20'>
                     <h3 className='font-poppins font-bold text-[22px]'>Follow me</h3>
